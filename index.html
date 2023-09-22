@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disque Bebidas</title>
+</head>
+<body onload="disquebebidas()">
+    <script type="text/javascript">
+        function disquebebidas() {
+            var cliente = prompt("Diga-nos a sua idade:");
+
+            if(cliente < 18) {
+                alert("Aqui está um copo água garotinho, hidrate-se!");
+            }
+
+            else if(cliente > 18) {
+                alert("Aqui está a sua Heineken, pinguço safado!");
+            }
+            
+            else {
+                alert("Estamos em pleno 2023 e você ainda tenta mentir?");
+                document.write("<h1>Você não aprende mesmo, né?</h2><br><p>Continue tentando!</p>")
+            }
+        }
+    </script>
+</body>
+</html>
